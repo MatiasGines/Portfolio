@@ -1,0 +1,7 @@
+*/Cambiar efecto scroll reveal íconos.
+*/Modificar la animación del h1 en img back ><
+*/poner los alt o title a los iconos en skills
+*/añadir footer (nav, contact)
+*/nav bar fijo
+*/Completar proyectos
+*/renderizar

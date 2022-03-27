@@ -44,11 +44,11 @@ ul {
 	top: 4px;
 	margin: 0;
 	z-index: 100;
-	/*
+	
 	-webkit-box-shadow: -1px 14px 33px 28px rgba(0,0,0,1);
 	-moz-box-shadow: -1px 14px 33px 28px rgba(0,0,0,1);
 	box-shadow: -1px 14px 33px 28px rgba(0,0,0,1);
-	*/
+	
 }
 
 .nav-brand {
@@ -130,9 +130,9 @@ ul {
 	font-family: monospace;
 	white-space: nowrap;
 	border-right: 4px solid;
-	width: 23ch;
+	width: 20ch;
 
-	animation: typing 3s steps(23), blink -5s infinite step-end alternate ;
+	animation: typing 3s steps(20), blink -5s infinite step-end alternate ;
 	overflow: hidden;
 }
 
