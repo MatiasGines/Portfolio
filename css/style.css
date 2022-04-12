@@ -1,4 +1,7 @@
 /*Generales*/
+a:link, a:visited, a:active {
+	text-decoration:none;
+}
 
 html body {
     overflow-x: hidden;
@@ -6,7 +9,9 @@ html body {
 }
 
 /*Nav bar*/
-
+.nav-menu * {	
+	transition: all .35s ease;
+}
 .menu-btn {
     position: absolute;
 	cursor: pointer;
@@ -54,7 +59,7 @@ ul {
 .nav-brand {
 	width: 60px;
 }
-
+*/
 /*nav left*/
 
 .nav-main ul {
@@ -86,7 +91,7 @@ ul {
 .imgback {
     background: url('../img/banner.jpg') no-repeat center center/cover;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 120vh;
 	-webkit-box-shadow: inset -11px -165px 47px 24px rgba(0,0,0,0.86);
 	-moz-box-shadow: inset -11px -165px 47px 24px rgba(0,0,0,0.86);
 	box-shadow: inset -11px -165px 47px 24px rgba(0,0,0,0.86);
@@ -118,7 +123,7 @@ ul {
     border-radius: 50%;  
 	margin-top: 100px; 
 }
-
+/*Texto contenedor 2*/
 .ajustecontenedor2 h1{
 	color: #ffff;
 
@@ -143,13 +148,29 @@ ul {
 @keyframes blink {
 	50% { border-color: transparent;}
 }
+/*/Texto contenedor 2*/
 
+/*Prueba js*/
+
+.hidden {
+	opacity:0;
+  }
+  .console-container {
+	font-size:4em;
+	color:white;
+  }
+  .console-underscore {
+	 display:inline-block;
+	position:relative;
+  }
+/*Prueba js*/
 /*Habilidades*/
 
 .skills{
 	height: auto;
 	background-color: #000002;
-	
+	min-height: 100vh;
+	height: auto;
 }
 
 .title{
@@ -173,6 +194,7 @@ ul {
 
 .portfolio {
 	background-color: #000002;
+	min-height: 30vh;
 	height: auto;
 }
 
@@ -180,17 +202,143 @@ ul {
 	min-height: 10%;
 	text-align: center;
 }
+/*Prueba cards*/
 
-.card {
-	background-color: #000002;
+  .carreaux_presentation_light{
+	display: inline-block;
+	width:250px; height:250px;
+	background-size:cover;
+	overflow: hidden;
+	position: relative;
+  }
+  .carreaux_presentation_light .shadow_swhow_mini{
+	background-color:rgba(19,30,33,0.4);
+	position: absolute;
+	z-index: 1000;
+	top:0;left:0;right:0;bottom:0;
+  }
+  .carreaux_presentation_light:hover .shadow_swhow_mini{
+	background-color:rgba(16,23,41,0);
+  }
+  .carreaux_presentation_light .deroul_titre{
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+	padding: 7px;
+	z-index: 1000;
+	top:60%;left:-80%;
+	color:#ffffff;
+	font-weight: 300;
+	font-size: 13px; width: 80%;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	transition: all 0.7s;
+  }
+  .carreaux_presentation_light:hover .deroul_titre{
+	background-color:#1e4944; left:0px;
+  }
+  .carreaux_presentation_light .deroul_soustitre{
+	position: absolute;
+	font-family: 'Roboto';
+	padding: 5px;
+	z-index: 1000;
+	top:60%;right:-85%;
+	margin-top: 25px;
+	color:#ffffff;
+	font-weight: 300;
+	font-size: 11px; width: 80%;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	transition: all 0.7s;
+  }
+  .carreaux_presentation_light:hover .deroul_soustitre{
+	background-color:#417c74;right:0px;
+  }
+/*Fin prueba cards*/
+.portfolio-cards{
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 10%;
+}
+.portfolio-cards .carreaux_presentation_light{
+	margin: 3%;
+}
+/*ID TRABAJOS*/
+#trabajo1{
+	background-image: url(../img/trabajos/living-del-sur.png);
 }
 
 
 
+/*Footer*/
+footer{
+	background-color: #000002;
+}
 
+footer p {
+	margin: 0;
+	text-align: center;
+	padding-bottom: 1rem;
+	color: #6c757d;
+}
 
-
-
+footer ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  footer ul li {
+	list-style: none;
+	margin: 0 15px;
+  }
+  
+  footer ul li a {
+	position: relative; 
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 45px;
+	background: rgb(41, 41, 41);
+	border-radius: 50%;
+	font-size: 30px;
+	color: #666;
+	transition: .5s;
+  }
+  
+footer ul li a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #fff127;
+	transition: .5s;
+	transform: scale(.9);
+	z-index: -1;
+  }
+  
+footer ul li a:hover::before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #fff01f;
+  }
+  
+footer ul li a:hover {
+	color: #ffee10;
+	box-shadow: 0 0 5px #ffee10;
+	text-shadow: 0 0 5px #ffee10;
+  }
+/*Footer*/
 
 
 
@@ -243,5 +391,20 @@ ul {
 	
 	.nav-main ul.nav-search {
 		margin-right: 50px;
+	}
+	.portfolio-cards{
+		display: grid;
+		justify-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding-bottom: 10%;
+	}
+
+}
+@media (max-width: 560px) {
+	.portfolio-cards{
+		display: grid;
+		justify-items: center;
+		grid-template-columns: 1fr;
+		padding-bottom: 10%;
 	}
 }
