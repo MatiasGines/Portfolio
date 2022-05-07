@@ -45,7 +45,7 @@ ul {
 	width: 100%;
 	padding: 20px 0px;
 	position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
 	top: 4px;
 	margin: 0;
 	z-index: 100;
@@ -190,6 +190,20 @@ ul {
 	margin-bottom: 9%;
 }
 
+/*Icon css3*/
+.icons8-html-5 { 
+	display: inline-block;
+	width: 280px;
+	height: 280px;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRTY1MTAwIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0LDI1di00aDguNmwtMC43LDExLjVMMjQsMzUuMXYtNC4ybDQuMS0xLjRsMC4zLTQuNUgyNHogTTMyLjksMTdsMC4zLTRIMjR2NEgzMi45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwzMC45djQuMmwtNy45LTIuNkwxNS43LDI3aDRsMC4yLDIuNUwyNCwzMC45eiBNMTkuMSwxN0gyNHYtNGgtOS4xbDAuNywxMkgyNHYtNGgtNC42TDE5LjEsMTd6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+	background-size: 100%; }
+/*html5*/
+.icons8-css3 { 
+	display: inline-block;
+	width: 280px;
+	height: 280px;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI3N0JEIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDM5QkU1IiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMzLjEgMTNMMjQgMTMgMjQgMTcgMjguOSAxNyAyOC42IDIxIDI0IDIxIDI0IDI1IDI4LjQgMjUgMjguMSAyOS41IDI0IDMwLjkgMjQgMzUuMSAzMS45IDMyLjUgMzIuNiAyMSAzMi42IDIxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwxM3Y0aC04LjlsLTAuMy00SDI0eiBNMTkuNCwyMWwwLjIsNEgyNHYtNEgxOS40eiBNMTkuOCwyN2gtNGwwLjMsNS41bDcuOSwyLjZ2LTQuMmwtNC4xLTEuNEwxOS44LDI3eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+	background-size: 100%; }
 /*Portfolio*/
 
 .portfolio {
@@ -236,7 +250,8 @@ ul {
 	transition: all 0.7s;
   }
   .carreaux_presentation_light:hover .deroul_titre{
-	background-color:#1e4944; left:0px;
+	background-color:#000002; left:0px;
+	
   }
   .carreaux_presentation_light .deroul_soustitre{
 	position: absolute;
@@ -254,7 +269,13 @@ ul {
 	transition: all 0.7s;
   }
   .carreaux_presentation_light:hover .deroul_soustitre{
-	background-color:#417c74;right:0px;
+	background-color:#000002;right:0px;
+  }
+  .shadow_swhow_mini a{
+	color: #ffff;
+  }
+  .shadow_swhow_mini a:hover{
+	color: #ffee10;
   }
 /*Fin prueba cards*/
 .portfolio-cards{
@@ -269,8 +290,25 @@ ul {
 /*ID TRABAJOS*/
 #trabajo1{
 	background-image: url(../img/trabajos/living-del-sur.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
 }
-
+#trabajo2{
+	background-image: url(../img/trabajos/estetica-torres.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
+#trabajo3{
+	background-image: url(../img/trabajos/fundacion-pescar.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
 
 
 /*Footer*/

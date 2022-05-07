@@ -1,8 +1,2 @@
-
-*/poner los alt o title a los iconos en skills
-*/nav bar fijo
-*/img trabajos
-*/renderizar
-*/cambiar resolución skills icons 
-*/añadir links a etiquetas <a> de trabajos
-*/Formulario 
+ /*añadir otros lenguajes como mongodb, nodejs, react, express*/
+/*Reducir velocidad de carga imgback */
