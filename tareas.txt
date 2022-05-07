@@ -1,2 +1,2 @@
- /*añadir otros lenguajes como mongodb, nodejs, react, express*/
+ /*Hacer más chicos los iconos y hacer 3 columnas*/
 /*Reducir velocidad de carga imgback */
