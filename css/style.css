@@ -309,8 +309,20 @@ ul {
 	background-position: center;
 	background-color: #fff;
 }
-
-
+#trabajo4{
+	background-image: url(../img/trabajos/encriptador-insignia.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
+#trabajo5{
+	background-image: url(../img/trabajos/turismo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
 /*Footer*/
 footer{
 	background-color: #000002;
