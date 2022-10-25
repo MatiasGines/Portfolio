@@ -27,7 +27,7 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 
   /*texto contenedor 2*/ 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(["Hi I'm Matias Gines.", "I'm full stack developer"], 'text',['withe','lightblue']);
+ consoleText(["Hi I'm Matias Gines.", "I'm Front End developer"], 'text',['withe','lightblue']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
