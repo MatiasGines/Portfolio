@@ -1,2 +1,5 @@
- /*Hacer más chicos los iconos y hacer 3 columnas*/
-/*Reducir velocidad de carga imgback */
+1) dividir los section en pages
+2) cambiar las imagenes en skills
+3) cuando carga skills, expandir la sombra con 
+    transición y scrollreveal en iconos
+4)  
