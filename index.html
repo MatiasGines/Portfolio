@@ -22,11 +22,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!--Css-->
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-    <!--Scrollreveal-->
+    <!--Scrollreveal-->   
     <script src="./js/scrollreveal.js"></script>
 
 
@@ -47,13 +47,12 @@
                 </h2>
             </div>
 
-            <ul class="nav-menu nav">
+            <ul class="nav-menu nav main-nav">
 
-                <li><a href="#_home"> HOME </a></li>
-                <li><a href="#_skills"> SKILLS </a></li>
-                <li><a href="#_about"> ABOUT </a></li>
-                <li><a href="#_portfolio">PORTFOLIO </a></li>
-                <li><a href="#_contact"> CONTACT </a></li>
+                <li><a href="/" onclick="route()"> HOME </a></li>
+                <li><a href="/skills" onclick="route()"> SKILLS </a></li>
+                <li><a href="/repo" onclick="route()">PORTFOLIO </a></li>
+                
             </ul>
 
             <!-- boton menu responsive -->
@@ -69,175 +68,10 @@
         <!--Finaliza codigo nav bar and buttons.-->
     </header>
 
-    <div>
-
-        <section id="_home" class="imgback">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg ajustecontenedor1 ">
-                        <div class="container">
-                            <img src="./img/perfil.jpeg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg ajustecontenedor2 ">
-
-                        <div class='console-container'><span id='text'></span>
-                            <div class='console-underscore' id='console'>&#95;</div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </div>
+    
 
 
-    <div id="_skills" class="skills">
-
-        <div class="title">
-            <h2>SKILLS</h2>
-        </div>
-        <div class="container">
-
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md icono">
-                    <div class="icons8-html-5" title="HTML5"></div>
-                </div>
-
-                <div class="col-md icono">
-                    <div class="icons8-css3" title="CSS3"></div>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md icono">
-                    <i class="fab fa-js-square" title="Javascript" style="font-size: 250px; color: #FFD646;"></i>
-                </div>
-
-                <div class="col-md icono">
-                    <i class="fab fa-bootstrap" title="Bootstrap" style="font-size: 240px; color: #B23CFD;"></i>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md icono">
-                    <i class="fab fa-sass" title="SASS" style="font-size: 240px; color:#F06292;"></i>
-                </div>
-
-                <div class="col-md icono">
-                    <i class="fab fa-git-alt" title="Git" style="font-size: 260px; color:#F4511E;"></i>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md icono">
-                    <i class="fa-brands fa-react" title="React" style="font-size: 260px; color:#8BB7F0;"></i>
-                </div>
-
-                <div class="col-md icono">
-                    <img src="https://img.icons8.com/color/240/000000/nodejs.png" title="Nodejs"/>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md icono">
-                    <img src="https://img.icons8.com/color/480/000000/mongodb.png" title="Mongodb" />
-                </div>
-
-                <div class="col-md icono">
-                    <img src="https://img.icons8.com/color/480/000000/mysql-logo.png" title="MySQL" />
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div id="_portfolio" class="portfolio container-fluid">
-
-        <div class="title">
-            <h2>TRABAJOS REALIZADOS</h2>
-        </div>
-
-        <div class="portfolio-cards">
-
-            <div id="trabajo1" class="carreaux_presentation_light">
-                <div class="shadow_swhow_mini">
-                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/living-del-sur"
-                            target="_blank">Github</a></div>
-                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/living-del-sur/"
-                            target="_blank">View</a></div>
-                </div>
-            </div>
-
-            <div id="trabajo2" class="carreaux_presentation_light">
-                <div class="shadow_swhow_mini">
-                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/esteticatorres"
-                            target="_blank">Github</a></div>
-                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/esteticatorres/"
-                            target="_blank">View</a></div>
-                </div>
-            </div>
-
-            <div id="trabajo3" class="carreaux_presentation_light">
-                <div class="shadow_swhow_mini">
-                    <div class="deroul_titre"><a href="https://github.com/gonzaloev/pescar_jpmorgan"
-                            target="_blank">Github</a></div>
-                    <div class="deroul_soustitre"><a href="https://alumnospescarjpmorgan.netlify.app/"
-                            target="_blank">View</a></div>
-                </div>
-            </div>
-
-            <div id="trabajo4" class="carreaux_presentation_light">
-                <div class="shadow_swhow_mini">
-                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/Encriptador"
-                            target="_blank">Github</a></div>
-                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/Encriptador/"
-                            target="_blank">View</a></div>
-                </div>
-            </div>
-
-            <div id="trabajo5" class="carreaux_presentation_light">
-                <div class="shadow_swhow_mini">
-                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/ArgentinaTurismo"
-                            target="_blank">Github</a></div>
-                    <div class="deroul_soustitre"><a href="https://argentinaturismo.netlify.app/"
-                            target="_blank">View</a></div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-    <div id="_about" class="about">
-
-    </div>
-
-    <div id="_contact" class="contact">
-
-
-    </div>
+    
 
 
     <footer>
