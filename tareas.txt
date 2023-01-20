@@ -1,6 +1,3 @@
-PASAR TODO AL REPO DE VANILLA SPA
-1) dividir los section en pages
-2) cambiar las imagenes en skills
-3) cuando carga skills, expandir la sombra con 
-    transición y scrollreveal en iconos
-4)  
+1) Sobre mi, que sea un botón con efecto, al presionarlo Show el parrafo.
+2) en skills hacer el scrollreveal y la opcion de ampliar info de cada skill
+3) en repo agregar repos de c#  
