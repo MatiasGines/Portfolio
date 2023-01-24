@@ -27,7 +27,7 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 
   /*texto contenedor 2*/ 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(["Hi I'm Matias Gines.", "I'm Front End developer"], 'text',['withe','lightblue']);
+ consoleText(["Hola! soy Matias Gines", "Soy desarrollador de Software"], 'text',['withe','lightblue']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
@@ -78,3 +78,7 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
    }, 400)
  }
   /*/texto contenedor 2*/
+
+  document.querySelector(".about-btn").addEventListener("click", () => {
+    document.querySelector(".txt-p").classList.toggle("showTxt");
+  });

@@ -22,15 +22,16 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!--Css-->
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <!--Scrollreveal-->   
+    <!--Scrollreveal-->
     <script src="./js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/2d892e6b64.js" crossorigin="anonymous"></script>
 
 
-    <title>Matias Gines</title>
+    <title>PORTFOLIO WEB</title>
 
 </head>
 
@@ -47,12 +48,11 @@
                 </h2>
             </div>
 
-            <ul class="nav-menu nav main-nav">
+            <ul class="nav-menu nav">
 
-                <li><a href="/" onclick="route()"> HOME </a></li>
-                <li><a href="/skills" onclick="route()"> SKILLS </a></li>
-                <li><a href="/repo" onclick="route()">PORTFOLIO </a></li>
-                
+                <li><a href="#_home"> INICIO </a></li>
+                <li><a href="#_skills"> HABILIDADES </a></li>
+                <li><a href="#_portfolio">REPOSITORIOS </a></li> 
             </ul>
 
             <!-- boton menu responsive -->
@@ -67,6 +67,7 @@
 
         <!--Finaliza codigo nav bar and buttons.-->
     </header>
+
     <div>
 
         <section id="_home" class="imgback">
@@ -74,20 +75,40 @@
             <div class="container">
 
                 <div class="row">
-
-                    <div class="col-lg ajustecontenedor1 ">
-                        <div class="container">
-                            <img src="./img/perfil.jpeg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg ajustecontenedor2 ">
+                    
+                    <div class="ajustecontenedor2 ">
 
                         <div class='console-container'><span id='text'></span>
                             <div class='console-underscore' id='console'>&#95;</div>
                         </div>
 
                     </div>
+                    <div class="ajustecontenedor1 ">
+                        <div class="container">
+                            <img src="./img/perfil.jpeg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="ajustecontenedor2 row">
+                        <div>
+                            <button class="about-btn row" id="testbutton"><i class="fa-duotone fa-circle-chevron-down"></i></button>
+                            
+                        </div>
+
+                        <div>
+                            <p class="txt-p mt-4">Soy estudiante de la tecnicatura en desarrollo de software.
+                                Me considero una persona responsable y perseverante, me gusta estar
+                                constantemente aprendiendo. Cuento con experiencia en desarrollo de
+                                front-end. Aún así, me capacité en .NET ya que estoy interesado en
+                                continuar desarrollándome como programador en esta tecnología.
+                                Estoy en búsqueda de una nueva experiencia donde me pueda unir a un
+                                equipo de trabajo para desarrollar mis habilidades como programador y
+                                continuar aprendiendo.</p>
+                        </div>
+
+                    </div>
+
+
 
                 </div>
 
@@ -96,10 +117,130 @@
         </section>
 
     </div>
-    
 
 
-    
+    <div id="_skills" class="skills">
+
+        <div class="title">
+            <h2>HABILIDADES</h2>
+        </div>
+        <div class="container">
+
+
+            <div class="row justify-content-md-center">
+
+                <div class="col-md icono">
+                    <div class="icons8-html-5" title="HTML5"></div>
+                </div>
+
+                <div class="col-md icono">
+                    <div class="icons8-css3" title="CSS3"></div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-md-center">
+
+                <div class="col-md icono">
+                    <i class="fab fa-js-square" title="Javascript" style="font-size: 250px; color: #FFD646;"></i>
+                </div>
+
+                <div class="col-md icono">
+                    <i class="fab fa-bootstrap" title="Bootstrap" style="font-size: 240px; color: #B23CFD;"></i>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-md-center">
+
+                <div class="col-md icono">
+                    <img src="../img/skills/csharp.png" title="CSharp" />
+                </div>
+
+                <div class="col-md icono">
+                    <img src="../img/skills/sql.png" title="SQL" />
+                </div>
+
+            </div>
+
+            <div class="row justify-content-md-center">
+
+                <div class="col-md icono">
+                    <img src="https://img.icons8.com/color/480/null/angularjs.png" title="Angular"/>
+                </div>  
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="_portfolio" class="portfolio container-fluid">
+
+        <div class="title">
+            <h2>REPOSITORIOS</h2>
+        </div>
+
+        <div class="portfolio-cards">
+
+            <div id="trabajo1" class="carreaux_presentation_light">
+                <div class="shadow_swhow_mini">
+                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/living-del-sur"
+                            target="_blank">Github</a></div>
+                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/living-del-sur/"
+                            target="_blank">View</a></div>
+                </div>
+            </div>
+
+            <div id="trabajo2" class="carreaux_presentation_light">
+                <div class="shadow_swhow_mini">
+                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/esteticatorres"
+                            target="_blank">Github</a></div>
+                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/esteticatorres/"
+                            target="_blank">View</a></div>
+                </div>
+            </div>
+
+            <div id="trabajo3" class="carreaux_presentation_light">
+                <div class="shadow_swhow_mini">
+                    <div class="deroul_titre"><a href="https://github.com/gonzaloev/pescar_jpmorgan"
+                            target="_blank">Github</a></div>
+                    <div class="deroul_soustitre"><a href="https://alumnospescarjpmorgan.netlify.app/"
+                            target="_blank">View</a></div>
+                </div>
+            </div>
+
+            <div id="trabajo4" class="carreaux_presentation_light">
+                <div class="shadow_swhow_mini">
+                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/Encriptador"
+                            target="_blank">Github</a></div>
+                    <div class="deroul_soustitre"><a href="https://matiasgines.github.io/Encriptador/"
+                            target="_blank">View</a></div>
+                </div>
+            </div>
+
+            <div id="trabajo5" class="carreaux_presentation_light">
+                <div class="shadow_swhow_mini">
+                    <div class="deroul_titre"><a href="https://github.com/MatiasGines/ArgentinaTurismo"
+                            target="_blank">Github</a></div>
+                    <div class="deroul_soustitre"><a href="https://argentinaturismo.netlify.app/"
+                            target="_blank">View</a></div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div id="_about" class="about">
+
+    </div>
+
+    <div id="_contact" class="contact">
+
+
+    </div>
 
 
     <footer>

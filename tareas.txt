@@ -1,3 +1,5 @@
-1) Sobre mi, que sea un botón con efecto, al presionarlo Show el parrafo.
-2) en skills hacer el scrollreveal y la opcion de ampliar info de cada skill
-3) en repo agregar repos de c#      
+//tareas
+1) cargar repositorios 
+2) cambiar titulos de las secciones y estilizar esos titulos.
+3) modificar el button sobre mi.
+4) cambiar el cv de los estaticos 
