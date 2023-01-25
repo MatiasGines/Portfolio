@@ -1,8 +1,13 @@
+/*page loader*/ 
+window.onload = function(){
+  var contenedor = document.getElementById('contenedor_carga');
+  contenedor.style.visibility = 'hidden';
+  contenedor.style.opacity = 0;
+}
+
 document.querySelector(".menu-btn").addEventListener("click", () => {
     document.querySelector(".nav-menu").classList.toggle("show");
   });
-
-
 
   window.sr = ScrollReveal();
   
