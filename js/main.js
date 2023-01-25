@@ -4,6 +4,9 @@ window.onload = function(){
   contenedor.style.visibility = 'hidden';
   contenedor.style.opacity = 0;
 }
+/*model skills*/
+
+/**/
 
 document.querySelector(".menu-btn").addEventListener("click", () => {
     document.querySelector(".nav-menu").classList.toggle("show");

@@ -5,7 +5,7 @@ a:link, a:visited, a:active {
 
 html body {
     overflow-x: hidden;
-
+	font-family: monospace;
 }
 /*Page loader*/
 *, *:after, *:before{
@@ -146,7 +146,7 @@ ul {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 	overflow: hidden;
 }
 .ajustecontenedor2 {
@@ -168,7 +168,6 @@ ul {
 /*Texto contenedor 2*/
 .ajustecontenedor2 h1{
 	color: #ffff;
-
 	margin-bottom: 1.875rem;
 }
   
@@ -178,7 +177,6 @@ ul {
 	white-space: nowrap;
 	border-right: 4px solid;
 	width: 20ch;
-
 	animation: typing 3s steps(20), blink -5s infinite step-end alternate ;
 	overflow: hidden;
 }
@@ -235,7 +233,11 @@ ul {
 	background-color:rgb(19, 20, 22);
   }
 /*TEXTO SOBRE MI*/
-
+.blur{
+	box-shadow: 0px 0px 25px rgb(17, 17, 17);
+	backdrop-filter: blur(1px);
+	border-radius: 2px;
+}
 .txt-p{
 	display: none;
 	color: white;
@@ -291,11 +293,11 @@ ul {
 .icono {
 	text-align: center;
 }
-
 .icono img{
 	height: 25vh;
 	margin-bottom: 9%;
 }
+/*ventana modal skills*/
 
 /*Icon css3*/
 .icons8-html-5 { 
@@ -425,6 +427,13 @@ ul {
 }
 #trabajo5{
 	background-image: url(../img/trabajos/turismo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
+#trabajo6{
+
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;

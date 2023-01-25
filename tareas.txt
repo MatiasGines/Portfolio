@@ -1,5 +1,3 @@
 //tareas
-1) cargar repositorios 
-2) cambiar titulos de las secciones y estilizar esos titulos.
-3) modificar el button sobre mi.
-4) cambiar el cv de los estaticos 
+1) agregar tarjeta con boton de cierre en las habilidades. detallando que sé de cada una.
+
